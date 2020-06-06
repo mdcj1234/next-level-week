@@ -1,0 +1,38 @@
+*** Node back-end ***
+
+npm init -y
+npm install ts-node -D
+npm install typescript -D
+npx tsc --init
+npm install ts-node-dev -D
+
+npx ts-node src/server.ts (para exeutar o servidor)
+script dev (ts-node-dev src/server.ts)
+npm run dev (para exeutar o servidor)
+
+npm install expresss
+npm install @types/express -D
+npm install sqlite3
+npm install knex
+
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+script knex:migrate (knex migrate:latest --knexfile knexfile.ts migrate:latest)
+npx knex migrate:latest --knexfile knexfile.ts seed:run
+script knex:seed (knex migrate:latest --knexfile knexfile.ts seed:run)
+
+npm install cors
+npm install @types/cors
+
+*** React front-end ***
+
+npx create-react-app --template=typescript
+
+npm start (para executar o arquivo)
+
+npm install react-icons
+npm install react-router-dom
+npm install @types/react-router-dom -D
+npm install leaflet react-leaflet // não esquecer de importar o css do leaflet
+npm install @types/react-leaflet -D
+npm install axios
+
